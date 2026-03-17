@@ -81,7 +81,7 @@ blacklist = []
 [pyfsd.metar]
 mode = "cron"
 cron_time = 3600
-fetchers = ["NOAA"]
+fetchers = ["noaa"]
 
 [pyfsd.logger.logger]
 handlers = ["default"]
